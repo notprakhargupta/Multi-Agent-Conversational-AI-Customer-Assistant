@@ -56,24 +56,6 @@ Once the appropriate sub-agent generates a response, the **Manager Agent** compi
 4. **Manager Agent**: Compiles the final response.
 5. **Chat Output**: Displays the answer to the user.
 
----
-
-## 📂 Folder Structure
-```
-Langflow/
-├── data/
-│   ├── pdfs/           # PDF documents for vector storage
-│   ├── csv_files/      # Order and product data in CSV format
-├── agents/
-│   ├── manager_agent.py
-│   ├── policy_agent.py
-│   └── order_info_agent.py
-├── database/
-│   └── vector_db.py
-├── frontend/
-│   └── streamlit_app.py  # Streamlit front-end application
-└── app.py              # Main application entry point
-```
 
 ---
 
